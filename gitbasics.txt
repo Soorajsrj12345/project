@@ -40,3 +40,8 @@ git
 
 
 repository settings....> pages...> branch(master)...>save
+
+
+tokens
+------
+git settings ---> developer settings ----> personel access 
