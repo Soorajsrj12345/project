@@ -1,0 +1,42 @@
+git and gtihub
+----------------
+version controll manager
+
+git opersations
+
+-push ->  upload new project and new updations - local repository to remote repository
+
+-clone ->  exact copy of project - remote repo to local repo
+
+-pull  ->   new updations   -  remote repo to local repo
+
+
+ push
+-----
+
+-add    -> snding project from local storage to staging area
+-commit  -> snding project from staging area to local repository
+
+
+clone , pull
+---------
+
+directly from local to remote repository
+
+
+git
+-----
+1) git init        ->  git initialization
+2) git status      ->  check status
+3) untracked files ->  files that are note added in staging area
+4) git add .       ->  to add all untracked files
+5) git commit -m "initial commit"  -> to commit the files
+6) git remote -v  -> to checkif the remote is added or not
+7) git remote add(variable eg:l1)  remote link  ->  to connect repo
+8) git push -u l1 master
+
+
+
+
+
+repository settings....> pages...> branch(master)...>save
