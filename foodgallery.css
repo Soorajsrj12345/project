@@ -1,10 +1,13 @@
 *{
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
 .parent{
     /* background-color: rgb(248, 244, 244); */
-    height: 500px;
+    /* height: 500px; */
+    width: 100%;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,7 +29,7 @@ body{
  align-items: center;
 
     box-shadow: 0px 10px rgb(21, 21, 21);
-  opacity: 1;
+  opacity: 0.9;
  
 }
 img {
@@ -44,11 +47,32 @@ button{
     color: rgb(255, 251, 251);
     background-color: rgb(11, 3, 4);
     width: 70%;
-    margin-top: 1rem;
     height: 40px;
+    border-radius: 40px;
+    
 }
+.btn-1{
+    margin-top: 7px;
+}
+.btn-2{
+    margin-top: 25px;
+}
+.btn-3{
+    margin-top: 7px;
+}
+.btn-4{
+    margin-top: 44px;
+}
+.btn-5{
+    margin-top: 25px;
+}
+.btn-6{
+    margin-top: 6px;
+}
+
+
 button:hover{
     color:black ;
-    background-color: white;
+    background: linear-gradient(180deg, rgba(209,119,17,1) 20%, rgba(209,187,17,0.9923319669664741) 60%, rgba(235,136,56,0.9054972330729166) 100%);
 
 }
