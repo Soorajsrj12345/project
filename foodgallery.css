@@ -9,8 +9,9 @@
     width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    
 }
 body{
     background-image: url("./images/background.jpg");
@@ -21,9 +22,12 @@ body{
 .col{
     width: 393px;
     height: 478px;
+
     border: 3px black solid;
     border-radius: 50px;
- background-color: white;
+    background: linear-gradient(180deg, rgba(209,119,17,1) 20%, rgba(209,187,17,0.9923319669664741) 60%, rgba(235,136,56,0.9054972330729166) 100%);
+
+ /* background-color: white; */
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -76,3 +80,41 @@ button:hover{
     background: linear-gradient(180deg, rgba(209,119,17,1) 20%, rgba(209,187,17,0.9923319669664741) 60%, rgba(235,136,56,0.9054972330729166) 100%);
 
 }
+
+@media(max-width:1250px){
+  .parent{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+
+  }
+}
+@media(max-width:1187px){
+    .parent{
+      font-size: 12px;
+      display: flex;
+      flex-direction:column;
+  
+    }
+  }
+  
+@media(max-width:432px){
+    .parent{
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+      }
+}
+@media(max-width:396px){
+    .parent{
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    
+      }
+}
+
